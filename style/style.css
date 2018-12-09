@@ -1,0 +1,53 @@
+body {
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    background-image: url("../images/bg_2.jpg");
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+#my_img {
+    height: 100%;
+
+}
+.card {
+    height: 100%;
+    background-color: transparent;
+}
+
+
+.card-body {
+    width: 90%;
+    font-size: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
+}
+
+.card_img {
+    width: 70%;
+    height: 70%;
+}
+
+.card-title {
+    font-size: 90%
+}
+
+.card-link {
+    position: ;
+}
+
+.nav-wrapper {
+    background-color: #b6bec4;
+    font-size: 100px;
+}
+
+.list-group{
+    float: left;
+    margin-left: 0px;
+}
+.a{
+    color:black;
+}
+
+h1{
+    background-color: #b6bec4;
+}
