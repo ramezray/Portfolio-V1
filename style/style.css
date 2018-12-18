@@ -10,16 +10,22 @@ body {
     height: 100%;
 
 }
-.card {
+
+/* .main-card {
     height: 100%;
-    background-color: transparent;
-}
+    
+    border: none;
+    font-size: 25%;
+    
+} */
 
 
 .card-body {
     width: 90%;
     font-size: 20px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.9);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.9);
+    font-size: small;
+    background-color: transparent;
 }
 
 .card_img {
@@ -31,23 +37,20 @@ body {
     font-size: 90%
 }
 
-.card-link {
-    position: ;
-}
-
 .nav-wrapper {
     background-color: #b6bec4;
     font-size: 100px;
 }
 
-.list-group{
+.list-group {
     float: left;
     margin-left: 0px;
 }
-.a{
-    color:black;
+
+.a {
+    color: black;
 }
 
-h1{
+h1 {
     background-color: #b6bec4;
 }
