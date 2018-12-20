@@ -5,78 +5,196 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!--css reset file-->
-    <link rel="stylesheet" href="style/reset.css">
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!--Bootstrap link-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-        crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <!-- CSS link -->
-    <link rel="stylesheet" href="style\style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Googole Font -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
-    <title>Ray Wasif</title>
+    <link rel="stylesheet" href="styles.css">
+    <!--link to jQuery-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <!-- JS -->
+    <script type="text/javascript" src='logic.js'></script>
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
+
+    <title>Ray-Wasif</title>
 </head>
 
 <body>
-    <header>
-        <h1 class="text-center p-3">About Ray</h1>
-        <div class="container ml-0 ">
-            <div class="list-group pr-5">
-                <a class="list-group-item a" href="index.html"><i class="fa fa-user-circle fa-fw fa-3x" aria-hidden="true"></i>&nbsp;
-                    About Ray</a>
-                <a class="list-group-item a" href="portfolio.html"><i class="fa fa-briefcase fa-fw fa-3x" aria-hidden="true"></i>&nbsp;
-                    Portfolio</a>
-                <a class="list-group-item a" href="contact.html"><i class="fa fa-commenting fa-fw fa-3x" aria-hidden="true"></i>&nbsp;
-                    Contact Ray</a>
-                <a class="list-group-item a" href="education.html"><i class="fa fa-graduation-cap fa-fw fa-3x"
-                        aria-hidden="true"></i>&nbsp;
-                    Education</a>
-                <a class="list-group-item a" href="https://github.com/ramezray" target="_blank"><i class="fa fa-github fa-fw fa-3x"
-                        aria-hidden="true"></i>&nbsp;
-                    GitHub</a>
-                <a class="list-group-item a" href="https://www.linkedin.com/in/ray-wasif/" target="_blank"><i class="fa fa-linkedin-square fa-fw fa-3x"
-                        aria-hidden="true"></i>&nbsp;
-                    LinkedIn</a>
-                <a class="list-group-item a" href="Ray's Resume.pdf" target="_blank"><i class="fa fa-file fa-fw fa-3x"
-                        aria-hidden="true"></i>&nbsp;
-                    Resume</a>
 
+    <!-- navbar -->
+    <nav class="navbar  navbar-expand-lg fixed-top">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="#navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarTogglerDemo01">
+            <ul class="navbar-nav mr-4">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a> </li>
+                <li class="nav-item">
+                    <a class="nav-link " data-value="portfolio" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " data-value="contact" href="#contact">Contact</a> </li>
+                <li class="nav-item">
+                    <a class="nav-link " data-value="GitHub" href="https://github.com/ramezray" target="_blank">GitHub</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " data-value="LinkedIn" href="https://www.linkedin.com/in/ray-wasif/" target="_blank">
+                        LinkedIn</a> </li>
+                <li class="nav-item">
+                    <a class="nav-link " data-value="Resume" href="Ray_Resume.pdf" target="_blank">
+                        Resume</a> </li>
+            </ul>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="overlay">
+            <div class="container">
+                <div class="description ">
+                    <h1 class="text-center">Welcome To My official Website</h1>
+                    <div class="text-center">
+                        <button id="btn" class="btn btn-outline-secondary btn-lg"><a href="#about">About Me</a></button>
+                        <button id="btn" class="btn btn-outline-secondary btn-lg"><a href="#portfolio">Portfolio</a></button>
+                        <button id="btn" class="btn btn-outline-secondary btn-lg"><a href="#contact">Contact Me </a></button>
+                        <button id="btn" class="btn btn-outline-secondary btn-lg"><a class="" href="https://github.com/ramezray"
+                                target="_blank">GitHub</a></button>
+                        <button id="btn" class="btn btn-outline-secondary btn-lg"><a class="" href="https://www.linkedin.com/in/ray-wasif/"
+                                target="_blank">LinkedIn</a></button>
+                        <button id="btn" class="btn btn-outline-secondary btn-lg"><a class="" href="Ray_Resume.pdf"
+                                target="_blank">PDF Resume</a></button>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
 
-    <div class="container ">
-        <div class="row mt-5 p-2">
+    <div id="about" class="about">
+        <h1 class="text-center mb-4">About Me</h1>
+        <div class="container row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <img src="images/me1.jpg" class="img-fluid">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-12 desc">
+                <h3>Ray Wasif</h3>
+                <p>
+                    I am a Web Developer with experience in HTML, CSS, Bootstrap, JavaScript, MySQL, jQuery, Ajax,
+                    Node.js,
+                    and API. I recently attending University of Washington Coding Bootcamp, and learning Data
+                    Structures, Algorithm, React.js,
+                    Git, and MongoDB.
+                    I'm currently working for Xerox company. One of the biggest takeaway
+                    from my current job, is the good experience with troubleshooting “debugging” and problem
+                    solving.
+                    Knowing how to eliminate between multiple components by creating logical tests to each
+                    component in order to narrow down what is the cause of the problem, is a great skill that I
+                    have. The core of my job is probleming solving in a fast-paced environment, which taught me how
+                    to work under pressure without panicking or losing focus.
+                    On the top of that, the awesome skill I gained over my long professional journey, is the thirst
+                    of learning new things every day.
+                </p>
+            </div>
+        </div>
+    </div>
 
-            <img id="my_img" class="col-4" src="images/me1.jpg" alt="">
-            <div class="col-8">
-                <div class="main-card">
-                    <div class="card-body text-center">
-                        <p>I am a Web Developer with experience in HTML, CSS, Bootstrap, JavaScript, MySQL, jQuery, Ajax, Node.js,
-                        and API. I recently attending University of Washington Coding Bootcamp, and learning Data Structures, Algorithm, React.js,
-                        Git, and MongoDB.
-                        I'm currently working for Xerox company. One of the biggest takeaway
-                        from my current job, is the good experience with troubleshooting “debugging” and problem
-                        solving.
-                        Knowing how to eliminate between multiple components by creating logical tests to each
-                        component in order to narrow down what is the cause of the problem, is a great skill that I
-                        have. The core of my job is probleming solving in a fast-paced environment, which taught me how
-                        to work under pressure without panicking or losing focus.
-                        On the top of that, the awesome skill I gained over my long professional journey, is the thirst
-                        of learning new things every day.</p>
+    <!-- portfolio -->
+    <div id="portfolio" class="portfolio">
+        <h1 class="text-center">Portfolio</h1>
+        <div class="container">
+
+            <div class="row pb-5">
+                <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
+                    <h4>Road Trip Guid App-Using Google API</h4>
+                    <img src="images/map.jpg" class="img-fluid">
+                    <div class="text-center"><a href="https://ramezray.github.io/Road-Trip-Guid-App-Using-Google-API/."
+                            target="_blank">App
+                            Link</a>
+                        <a href="https://github.com/ramezray/Road-Trip-Guid-App-Using-Google-API" target="_blank">GitHub
+                            link</a></div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
+                    <h4>Train Scheduler-Using Firebase</h4>
+                    <img src="images/train_sched.png" class="img-fluid">
+                    <div class="text-center">
+                        <a href="https://ramezray.github.io/Firebase-Train-Scheduler/" target="_blank">App
+                            Link</a>
+                        <a href="https://github.com/ramezray/Firebase-Train-Scheduler" target="_blank">GitHub
+                            link</a>
                     </div>
                 </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
+                    <h4>Articles Search-Using NYT API</h4>
+                    <img src="images/NT.jpg" class="img-fluid">
+                    <div class="text-center">
+                        <a href="https://ramezray.github.io/LiveAPISearch-New-York-Times-Articals/" target="_blank">App
+                            Link</a>
+                        <a href="https://github.com/ramezray/LiveAPISearch-New-York-Times-Articals" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
+                    <h4>Liri App-Node.JS</h4>
+                    <img src="images/liri.png" class="img-fluid">
+                    <div class="text-center">
+                        <a href="https://drive.google.com/file/d/1O3JeSXiNBa-3HM58UW337dafC-tmW3ea/view?usp=sharing"
+                            class="card-link" target="_blank">App Demo Link</a>
+                        <a href="https://github.com/ramezray/liri-node-app" class="card-link" target="_blank">GitHub
+                            link</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
+                    <h4>Trivia Game</h4>
+                    <img src="images/JS_quiz.PNG" class="img-fluid">
+                    <div class="text-center">
+                        <a href="https://ramezray.github.io/TriviaGame/" class="card-link" target="_blank">App Link</a>
+                        <a href="https://github.com/ramezray/TriviaGame" class="card-link" target="_blank">GitHub link</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
+                    <h4>Word Guess Game</h4>
+                    <img src="images/guess.jpg" class="img-fluid">
+                    <div class="text-center">
+                        <a href="https://ramezray.github.io/Word-Guess-Game/" class="card-link" target="_blank">App
+                            Link</a>
+                        <a href="https://github.com/ramezray/Word-Guess-Game" class="card-link" target="_blank">GitHub
+                            link</a>
+                    </div>
+                </div>
+
             </div>
-
         </div>
-        <footer>
-            <i><a href=""></a></i>
-        </footer>
+    </div>
 
+    <!-- Contact form -->
+    <div id="contact" class="contact-form">
+        <div class="container">
+            <form action="https://formspree.io/ray_ramez@yahoo.com" method="POST">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <h1>Contact Me</h1>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-12 right">
+                        <div class="form-group">
+                            <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com"
+                                name="email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control form-control-lg"></textarea>
+                        </div>
+                        <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 
