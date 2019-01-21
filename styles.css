@@ -145,7 +145,7 @@ body {
     margin: 2em;
 }
 
-.portfolio h4 {
+.portfolio h4, h5 {
     text-align: center;
     color: #3498db;
     font-size: bold;
