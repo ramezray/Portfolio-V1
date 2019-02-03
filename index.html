@@ -7,8 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--Bootstrap link-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <!-- CSS link -->
-    <link rel="stylesheet" href="styles.css">
+
     <!--link to jQuery-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -16,6 +15,11 @@
     <script type="text/javascript" src='logic.js'></script>
     <!-- google font -->
     <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstarp JS -->
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 
     <title>Ray-Wasif</title>
 </head>
@@ -25,7 +29,10 @@
     <!-- navbar -->
     <nav class="navbar  navbar-expand-lg fixed-top">
         <a class="navbar-brand" href="#">Home</a>
-        <!-- <button class="btn navbar-toggler" data-toggle="collapse" data-target="#navbar"><span class="navbar-toggler-icon"></span></button> -->
+        <!-- <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon show"></span>
+        </button>
         <div class="collapse navbar-collapse " id="navbar">
             <ul class="navbar-nav mr-4">
                 <li class="nav-item active">
@@ -48,24 +55,24 @@
         </div>
     </nav>
 
-    <header class="header mb-1">
+    <header class="header col-sm-12">
         <!-- <div class="overlay"> -->
-            <div class="container">
-                <div class="description ">
-                    <h1 class="text-center">Welcome To My official Website</h1>
-                    <div class="text-center">
-                        <button id="btn" class="btn btn-outline-secondary btn-lg"><a href="#about">About Me</a></button>
-                        <button id="btn" class="btn btn-outline-secondary btn-lg"><a href="#portfolio">Portfolio</a></button>
-                        <button id="btn" class="btn btn-outline-secondary btn-lg"><a href="#contact">Contact Me </a></button>
-                        <button id="btn" class="btn btn-outline-secondary btn-lg"><a class="" href="https://github.com/ramezray"
-                                target="_blank">GitHub</a></button>
-                        <button id="btn" class="btn btn-outline-secondary btn-lg"><a class="" href="https://www.linkedin.com/in/ray-wasif/"
-                                target="_blank">LinkedIn</a></button>
-                        <button id="btn" class="btn btn-outline-secondary btn-lg"><a class="" href="Ray_Resume.pdf"
-                                target="_blank">PDF Resume</a></button>
-                    </div>
+        <div class="container">
+            <div class="description ">
+                <h1 class="text-center">Welcome To My official Website</h1>
+                <div class="text-center">
+                    <button id="btn" class="btn btn-outline-secondary btn-lg"><a href="#about">About Me</a></button>
+                    <button id="btn" class="btn btn-outline-secondary btn-lg"><a href="#portfolio">Portfolio</a></button>
+                    <button id="btn" class="btn btn-outline-secondary btn-lg"><a href="#contact">Contact Me </a></button>
+                    <button id="btn" class="btn btn-outline-secondary btn-lg"><a class="" href="https://github.com/ramezray"
+                            target="_blank">GitHub</a></button>
+                    <button id="btn" class="btn btn-outline-secondary btn-lg"><a class="" href="https://www.linkedin.com/in/ray-wasif/"
+                            target="_blank">LinkedIn</a></button>
+                    <button id="btn" class="btn btn-outline-secondary btn-lg"><a class="" href="Ray_Resume.pdf" target="_blank">PDF
+                            Resume</a></button>
                 </div>
             </div>
+        </div>
         <!-- </div> -->
     </header>
 
@@ -78,8 +85,10 @@
             <div class="col-lg-8 col-md-8 col-sm-12 desc">
                 <h3>Ray Wasif</h3>
                 <p>
-                    I am a Full Stack Developer with experience in HTML, CSS, Bootstrap, JavaScript, MySQL, jQuery, Ajax,
-                    Node.js, Express.js, and API. I recently attending University of Washington Coding Bootcamp, and learning Data
+                    I am a Full Stack Developer with experience in HTML, CSS, Bootstrap, JavaScript, MySQL, jQuery,
+                    Ajax,
+                    Node.js, Express.js, and API. I recently attending University of Washington Coding Bootcamp, and
+                    learning Data
                     Structures, Algorithm, React.js,
                     Git, and MongoDB.
                     I'm currently working for Xerox company. One of the biggest takeaway
@@ -117,8 +126,8 @@
                     <h4>Create your Burger</h4>
                     <h5>Express.js Handlebars</h5>
                     <img src="images/burgerApp.jpg" class="img-fluid">
-                    <div class="text-center"><a href="https://blooming-garden-87297.herokuapp.com/"
-                            target="_blank">Heroku Link</a>
+                    <div class="text-center"><a href="https://blooming-garden-87297.herokuapp.com/" target="_blank">Heroku
+                            Link</a>
                         <a href="https://github.com/ramezray/Eat-Da-Burger" target="_blank">GitHub
                             link</a></div>
                 </div>
@@ -131,8 +140,8 @@
                     <h4>Roomate Finder App</h4>
                     <h5>Express.js_NPM Packages</h5>
                     <img src="images/roomate.PNG" class="img-fluid">
-                    <div class="text-center"><a href="https://floating-savannah-40324.herokuapp.com/"
-                            target="_blank">Heroku Link</a>
+                    <div class="text-center"><a href="https://floating-savannah-40324.herokuapp.com/" target="_blank">Heroku
+                            Link</a>
                         <a href="https://github.com/ramezray/Roomate-Finder-Express.js" target="_blank">GitHub
                             link</a></div>
                 </div>
@@ -140,7 +149,8 @@
                     <h4>Bamazon App</h4>
                     <h5>Node.JS_MYSQL_NPM Packages</h5>
                     <img src="images/bamazon.jpg" class="img-fluid">
-                    <div class="text-center"><a href="https://drive.google.com/file/d/1IQE_Ecq5ZJMKTNl4MFstO2QVf74FHR7R/view" target="_blank">App Demo Link</a>
+                    <div class="text-center"><a href="https://drive.google.com/file/d/1IQE_Ecq5ZJMKTNl4MFstO2QVf74FHR7R/view"
+                            target="_blank">App Demo Link</a>
                         <a href="https://github.com/ramezray/bamazon_Node.JS_MYSQL" target="_blank">GitHub link</a></div>
                 </div>
 
@@ -220,7 +230,7 @@
                                 name="_replyto">
                         </div>
                         <div class="form-group">
-                            <textarea  name="message" class="form-control form-control-lg"></textarea>
+                            <textarea name="message" class="form-control form-control-lg"></textarea>
                         </div>
                         <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
                     </div>
