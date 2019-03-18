@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url('images/bg_4.jpg');
+    background-image: url('images/bg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-attachment: fixed;
@@ -12,7 +12,7 @@ body {
 }
 
 .navbar {
-    background: #F97300;
+    background: #78c2ad;
 }
 
 .nav-link,
@@ -29,7 +29,7 @@ body {
 .nav-link:hover,
 .navbar-brand:hover {
     background: #666;
-    color: #f97300;
+    color: #78c2ad;
 }
 
 .navbar-collapse {
@@ -58,7 +58,7 @@ body {
 }
 
 .description h1 {
-    color: #F97300;
+    color: #78c2ad;
 }
 
 .description p {
@@ -70,8 +70,8 @@ body {
 }
 
 .description button {
-    border: 1px solid #F97300;
-    background: #F97300;
+    border: 1px solid #78c2ad;
+    background: #78c2ad;
     color: #fff;
     width: 170px;
     height: 60px;
@@ -81,7 +81,7 @@ body {
 }
 
 .description button:hover {
-    color: #F97300;
+    color: #78c2ad;
 }
 
 .description button a {
@@ -89,7 +89,7 @@ body {
 }
 
 .description button a:hover {
-    color: #F97300;
+    color: #78c2ad;
 }
 
 .about {
@@ -99,7 +99,7 @@ body {
 }
 
 .about h1 {
-    color: #F97300;
+    color: #78c2ad;
     margin: 2em;
 }
 
@@ -118,17 +118,18 @@ body {
 
 .about .desc {
     padding: 2em;
-    border-left: 4px solid #10828C;
+    border-left: 4px solid #78c2ad;
+    /* color: #78c2ad */
 }
 
 .about .desc h3 {
-    color: #F97300;
+    color: #78c2ad;
     /* padding-top: 0px; */
 }
 
 .about .desc p {
     line-height: 2;
-    color: #3498db;
+    color: #67d1b3;
     font-weight: bold;
     font-size: 25px;
 }
@@ -140,13 +141,13 @@ body {
 }
 
 .portfolio h1 {
-    color: #F97300;
+    color: #78c2ad;
     margin: 2em;
 }
 
 .portfolio h4, h5 {
     text-align: center;
-    color: #3498db;
+    color: #78c2ad;
     font-size: bold;
 }
 
@@ -159,7 +160,7 @@ body {
 .portfolio a {
     color: teal;
     text-align: center;
-    color: #3498db;
+    color: #78c2ad;
     padding: 10px;
 
 }
@@ -171,7 +172,7 @@ body {
 
 .contact-form h1 {
     padding: 2em 1px;
-    color: #F97300;
+    color: #78c2ad;
 }
 
 .contact-form .right {
@@ -179,7 +180,7 @@ body {
 }
 
 .contact-form .right .btn-secondary {
-    background: #F97300;
+    background: #6bd1b4;
     color: #fff;
     border: 0;
 }
