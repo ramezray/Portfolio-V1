@@ -1,449 +1,300 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!--Bootstrap link-->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    />
-    <!-- <link rel="stylesheet" href="https://bootswatch.com/4/minty/bootstrap.min.css" > -->
 
-    <!--link to jQuery-->
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <!-- JS -->
-    <script type="text/javascript" src="logic.js"></script>
-    <!-- google font -->
-    <link
-      href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei"
-      rel="stylesheet"
-    />
-    <!-- CSS link -->
-    <link rel="stylesheet" href="styles.css" />
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-      crossorigin="anonymous"
-    ></script>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!--Bootstrap link-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+  <!-- <link rel="stylesheet" href="https://bootswatch.com/4/minty/bootstrap.min.css" > -->
 
-    <title>Ray-Wasif</title>
-  </head>
+  <!--link to jQuery-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <!-- JS -->
+  <script type="text/javascript" src="logic.js"></script>
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet" />
+  <!-- CSS link -->
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+  </script>
 
-  <body>
-    <!-- navbar -->
-    <nav class="navbar  navbar-expand-lg navbar-dark fixed-top">
-      <a class="navbar-brand" href="#">Home</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarColor01"
-        aria-controls="navbarColor01"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+  <title>Ray-Wasif</title>
+</head>
 
-      <div class="collapse navbar-collapse" id="navbarColor01">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#about"
-              >About <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="https://github.com/ramezray"
-              target="_blank"
-              >GitHub</a
-            >
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="https://www.linkedin.com/in/ray-wasif/"
-              target="_blank"
-              >LinkedIn</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Ray_Resume.pdf" target="_blank">Resume</a>
-          </li>
-        </ul>
+<body>
+  <!-- navbar -->
+  <nav class="navbar  navbar-expand-lg navbar-dark fixed-top">
+    <a class="navbar-brand" href="#">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+      aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item ">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/ramezray" target="_blank">GitHub</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.linkedin.com/in/ray-wasif/" target="_blank">LinkedIn</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Ray_Resume.pdf" target="_blank">Resume</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="header col-sm-12">
+    <!-- <div class="overlay"> -->
+    <div class="container">
+      <div class="description ">
+        <h1 class="text-center">Welcome To My official Website</h1>
+        <div class="text-center">
+          <button id="btn" class="btn btn-outline-secondary btn-lg">
+            <a href="#about">About Me</a>
+          </button>
+          <button id="btn" class="btn btn-outline-secondary btn-lg">
+            <a href="#portfolio">Portfolio</a>
+          </button>
+          <button id="btn" class="btn btn-outline-secondary btn-lg">
+            <a href="#contact">Contact Me </a>
+          </button>
+          <button id="btn" class="btn btn-outline-secondary btn-lg">
+            <a class="" href="https://github.com/ramezray" target="_blank">GitHub</a>
+          </button>
+          <button id="btn" class="btn btn-outline-secondary btn-lg">
+            <a class="" href="https://www.linkedin.com/in/ray-wasif/" target="_blank">LinkedIn</a>
+          </button>
+          <button id="btn" class="btn btn-outline-secondary btn-lg">
+            <a class="" href="Ray_Resume.pdf" target="_blank">PDF Resume</a>
+          </button>
+        </div>
       </div>
-    </nav>
+    </div>
+    <!-- </div> -->
+  </header>
 
-    <header class="header col-sm-12">
-      <!-- <div class="overlay"> -->
-      <div class="container">
-        <div class="description ">
-          <h1 class="text-center">Welcome To My official Website</h1>
+  <div id="about" class="about">
+    <h1 class="text-center mb-4">About Me</h1>
+    <div class="container row">
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        <img src="images/me1.jpg" class="img-fluid" />
+      </div>
+      <div class="col-lg-8 col-md-8 col-sm-12 desc">
+        <h2><u>Ray Wasif</u></h2>
+        <p>
+          I am a Full Stack Developer with experience in JavaScript, MongoDB,
+          React.js, React-Native.js, Express.js, Node.js, MySQL, jQuery, APIs,
+          Bootstrap. I recently graduated from
+          <!-- I'm currently working for UW Professional & Continuing Education as a Teaching Assistant. -->
+          University of Washington Coding Bootcamp, and I'm currently working
+          for Xerox company. One of the biggest takeaway from my current job,
+          is the good experience with troubleshooting “debugging” and problem
+          solving. Knowing how to eliminate between multiple components by
+          creating logical tests to each component in order to narrow down
+          what is the cause of the problem, is a great skill that I have. The
+          core of my job is probleming solving in a fast-paced environment,
+          which taught me how to work under pressure without panicking or
+          losing focus. On the top of that, the awesome skill I gained over my
+          long professional journey, is the thirst of learning new things
+          every day.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- portfolio -->
+  <div id="portfolio" class="portfolio">
+    <h1 class="text-center">Portfolio</h1>
+    <div class="container">
+      <div class="row pb-5">
+        <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
+          <h4>GadaBots App</h4>
+          <h5>MERN</h5>
+          <img src="images/gadabots.jpg" class="img-fluid" />
           <div class="text-center">
-            <button id="btn" class="btn btn-outline-secondary btn-lg">
-              <a href="#about">About Me</a>
-            </button>
-            <button id="btn" class="btn btn-outline-secondary btn-lg">
-              <a href="#portfolio">Portfolio</a>
-            </button>
-            <button id="btn" class="btn btn-outline-secondary btn-lg">
-              <a href="#contact">Contact Me </a>
-            </button>
-            <button id="btn" class="btn btn-outline-secondary btn-lg">
-              <a class="" href="https://github.com/ramezray" target="_blank"
-                >GitHub</a
-              >
-            </button>
-            <button id="btn" class="btn btn-outline-secondary btn-lg">
-              <a
-                class=""
-                href="https://www.linkedin.com/in/ray-wasif/"
-                target="_blank"
-                >LinkedIn</a
-              >
-            </button>
-            <button id="btn" class="btn btn-outline-secondary btn-lg">
-              <a class="" href="Ray_Resume.pdf" target="_blank">PDF Resume</a>
-            </button>
+            <a href="https://gadabots.herokuapp.com/" target="_blank">Heroku Link</a>
+            <a href="https://github.com/gadabots/GadaBots" target="_blank">GitHub link</a>
           </div>
         </div>
-      </div>
-      <!-- </div> -->
-    </header>
-
-    <div id="about" class="about">
-      <h1 class="text-center mb-4">About Me</h1>
-      <div class="container row">
-        <div class="col-lg-4 col-md-4 col-sm-12">
-          <img src="images/me1.jpg" class="img-fluid" />
+        <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
+          <h4>Sell Something App</h4>
+          <h5>Full Stack App</h5>
+          <img src="images/project2.jpg" class="img-fluid" />
+          <div class="text-center">
+            <a href="https://nameless-eyrie-70280.herokuapp.com" target="_blank">Heroku Link</a>
+            <a href="https://github.com/ramezray/sellSomethingApp" target="_blank">GitHub link</a>
+          </div>
         </div>
-        <div class="col-lg-8 col-md-8 col-sm-12 desc">
-          <h2><u>Ray Wasif</u></h2>
-          <p>
-            I am a Full Stack Developer with experience in JavaScript, MongoDB,
-            React.js, Express.js, Node.js, MySQL, jQuery, APIs, Bootstrap. I
-            recently graduated from
-            <!-- I'm currently working for UW Professional & Continuing Education as a Teaching Assistant. -->
-            University of Washington Coding Bootcamp, and I'm currently working
-            for Xerox company. One of the biggest takeaway from my current job,
-            is the good experience with troubleshooting “debugging” and problem
-            solving. Knowing how to eliminate between multiple components by
-            creating logical tests to each component in order to narrow down
-            what is the cause of the problem, is a great skill that I have. The
-            core of my job is probleming solving in a fast-paced environment,
-            which taught me how to work under pressure without panicking or
-            losing focus. On the top of that, the awesome skill I gained over my
-            long professional journey, is the thirst of learning new things
-            every day.
-          </p>
+
+        <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
+          <h4>Road Trip Guid App</h4>
+          <h5>Using Google API</h5>
+          <img src="images/map.jpg" class="img-fluid" />
+          <div class="text-center">
+            <a href="https://ramezray.github.io/Road-Trip-Guid-App-Using-Google-API/." target="_blank">App Link</a>
+            <a href="https://github.com/ramezray/Road-Trip-Guid-App-Using-Google-API" target="_blank">GitHub link</a>
+          </div>
         </div>
-      </div>
-    </div>
 
-    <!-- portfolio -->
-    <div id="portfolio" class="portfolio">
-      <h1 class="text-center">Portfolio</h1>
-      <div class="container">
-        <div class="row pb-5">
-          <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
-            <h4>GadaBots App</h4>
-            <h5>MERN</h5>
-            <img src="images/gadabots.jpg" class="img-fluid" />
-            <div class="text-center">
-              <a href="https://gadabots.herokuapp.com/" target="_blank"
-                >Heroku Link</a
-              >
-              <a href="https://github.com/gadabots/GadaBots" target="_blank"
-                >GitHub link</a
-              >
-            </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
+          <h4>Food App - React Native</h4>
+          <h5>Using Yelp API</h5>
+          <img src="images/Restaurant-HomePage-RN-App.jpg" class="img-fluid" />
+          <div class="text-center">
+            <a href="https://expo.io/@rayramez/restaurant-search" target="_blank">Expo Link</a>
+            <a href="https://github.com/ramezray/YelpRestaurantsSearch" target="_blank">GitHub link</a>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
-            <h4>Sell Something App</h4>
-            <h5>Full Stack App</h5>
-            <img src="images/project2.jpg" class="img-fluid" />
-            <div class="text-center">
-              <a
-                href="https://nameless-eyrie-70280.herokuapp.com"
-                target="_blank"
-                >Heroku Link</a
-              >
-              <a
-                href="https://github.com/ramezray/sellSomethingApp"
-                target="_blank"
-                >GitHub link</a
-              >
-            </div>
-          </div>
+        </div>
 
-          <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
-            <h4>Road Trip Guid App</h4>
-            <h5>Using Google API</h5>
-            <img src="images/map.jpg" class="img-fluid" />
-            <div class="text-center">
-              <a
-                href="https://ramezray.github.io/Road-Trip-Guid-App-Using-Google-API/."
-                target="_blank"
-                >App Link</a
-              >
-              <a
-                href="https://github.com/ramezray/Road-Trip-Guid-App-Using-Google-API"
-                target="_blank"
-                >GitHub link</a
-              >
-            </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
+          <h4>Google Books Search</h4>
+          <h5>MERN</h5>
+          <img src="images/googlebooks.jpg" class="img-fluid" />
+          <div class="text-center">
+            <a href="https://google-books-search-with-react.herokuapp.com/" target="_blank">Heroku Link</a>
+            <a href="https://github.com/ramezray/React-Google-Books-Search" target="_blank">GitHub link</a>
           </div>
+        </div>
 
-          <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
-            <h4>Google Books Search</h4>
-            <h5>MERN</h5>
-            <img src="images/googlebooks.jpg" class="img-fluid" />
-            <div class="text-center">
-              <a
-                href="https://google-books-search-with-react.herokuapp.com/"
-                target="_blank"
-                >Heroku Link</a
-              >
-              <a
-                href="https://github.com/ramezray/React-Google-Books-Search"
-                target="_blank"
-                >GitHub link</a
-              >
-            </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
+          <h4>Clicky Game</h4>
+          <h5>React Node</h5>
+          <img src="images/clickygame.jpg" class="img-fluid" />
+          <div class="text-center">
+            <a href="https://my-first-react-pro.herokuapp.com/" target="_blank">Heroku Link</a>
+            <a href="https://github.com/ramezray/react-clicky-game" target="_blank">GitHub link</a>
           </div>
+        </div>
 
-          <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
-            <h4>Clicky Game</h4>
-            <h5>React Node</h5>
-            <img src="images/clickygame.jpg" class="img-fluid" />
-            <div class="text-center">
-              <a
-                href="https://my-first-react-pro.herokuapp.com/"
-                target="_blank"
-                >Heroku Link</a
-              >
-              <a
-                href="https://github.com/ramezray/react-clicky-game"
-                target="_blank"
-                >GitHub link</a
-              >
-            </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
+          <h4>Create your Burger</h4>
+          <h5>Express.js Handlebars</h5>
+          <img src="images/burgerApp.jpg" class="img-fluid" />
+          <div class="text-center">
+            <a href="https://blooming-garden-87297.herokuapp.com/" target="_blank">Heroku Link</a>
+            <a href="https://github.com/ramezray/Eat-Da-Burger" target="_blank">GitHub link</a>
           </div>
+        </div>
 
-          <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
-            <h4>Create your Burger</h4>
-            <h5>Express.js Handlebars</h5>
-            <img src="images/burgerApp.jpg" class="img-fluid" />
-            <div class="text-center">
-              <a
-                href="https://blooming-garden-87297.herokuapp.com/"
-                target="_blank"
-                >Heroku Link</a
-              >
-              <a
-                href="https://github.com/ramezray/Eat-Da-Burger"
-                target="_blank"
-                >GitHub link</a
-              >
-            </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
+          <h4>Roomate Finder App</h4>
+          <h5>Express.js_NPM Packages</h5>
+          <img src="images/roomate.PNG" class="img-fluid" />
+          <div class="text-center">
+            <a href="https://floating-savannah-40324.herokuapp.com/" target="_blank">Heroku Link</a>
+            <a href="https://github.com/ramezray/Roomate-Finder-Express.js" target="_blank">GitHub link</a>
           </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
+          <h4>Bamazon App</h4>
+          <h5>Node.JS_MYSQL_NPM Packages</h5>
+          <img src="images/bamazon.jpg" class="img-fluid" />
+          <div class="text-center">
+            <a href="https://drive.google.com/file/d/1IQE_Ecq5ZJMKTNl4MFstO2QVf74FHR7R/view" target="_blank">App Demo
+              Link</a>
+            <a href="https://github.com/ramezray/bamazon_Node.JS_MYSQL" target="_blank">GitHub link</a>
+          </div>
+        </div>
 
-          <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
-            <h4>Roomate Finder App</h4>
-            <h5>Express.js_NPM Packages</h5>
-            <img src="images/roomate.PNG" class="img-fluid" />
-            <div class="text-center">
-              <a
-                href="https://floating-savannah-40324.herokuapp.com/"
-                target="_blank"
-                >Heroku Link</a
-              >
-              <a
-                href="https://github.com/ramezray/Roomate-Finder-Express.js"
-                target="_blank"
-                >GitHub link</a
-              >
-            </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
+          <h4>Train Scheduler-Using Firebase</h4>
+          <img src="images/train_sched.png" class="img-fluid" />
+          <div class="text-center">
+            <a href="https://ramezray.github.io/Firebase-Train-Scheduler/" target="_blank">App Link</a>
+            <a href="https://github.com/ramezray/Firebase-Train-Scheduler" target="_blank">GitHub link</a>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
-            <h4>Bamazon App</h4>
-            <h5>Node.JS_MYSQL_NPM Packages</h5>
-            <img src="images/bamazon.jpg" class="img-fluid" />
-            <div class="text-center">
-              <a
-                href="https://drive.google.com/file/d/1IQE_Ecq5ZJMKTNl4MFstO2QVf74FHR7R/view"
-                target="_blank"
-                >App Demo Link</a
-              >
-              <a
-                href="https://github.com/ramezray/bamazon_Node.JS_MYSQL"
-                target="_blank"
-                >GitHub link</a
-              >
-            </div>
-          </div>
+        </div>
 
-          <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
-            <h4>Train Scheduler-Using Firebase</h4>
-            <img src="images/train_sched.png" class="img-fluid" />
-            <div class="text-center">
-              <a
-                href="https://ramezray.github.io/Firebase-Train-Scheduler/"
-                target="_blank"
-                >App Link</a
-              >
-              <a
-                href="https://github.com/ramezray/Firebase-Train-Scheduler"
-                target="_blank"
-                >GitHub link</a
-              >
-            </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
+          <h4>Articles Search-Using NYT API</h4>
+          <img src="images/NT.jpg" class="img-fluid" />
+          <div class="text-center">
+            <a href="https://ramezray.github.io/LiveAPISearch-New-York-Times-Articals/" target="_blank">App Link</a>
+            <a href="https://github.com/ramezray/LiveAPISearch-New-York-Times-Articals" target="_blank">GitHub</a>
           </div>
+        </div>
 
-          <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
-            <h4>Articles Search-Using NYT API</h4>
-            <img src="images/NT.jpg" class="img-fluid" />
-            <div class="text-center">
-              <a
-                href="https://ramezray.github.io/LiveAPISearch-New-York-Times-Articals/"
-                target="_blank"
-                >App Link</a
-              >
-              <a
-                href="https://github.com/ramezray/LiveAPISearch-New-York-Times-Articals"
-                target="_blank"
-                >GitHub</a
-              >
-            </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
+          <h4>Liri App</h4>
+          <h5>JavaScript_Node.JS</h5>
+          <img src="images/liri.png" class="img-fluid" />
+          <div class="text-center">
+            <a href="https://drive.google.com/file/d/1O3JeSXiNBa-3HM58UW337dafC-tmW3ea/view?usp=sharing"
+              class="card-link" target="_blank">App Demo Link</a>
+            <a href="https://github.com/ramezray/liri-node-app" class="card-link" target="_blank">GitHub link</a>
           </div>
+        </div>
 
-          <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
-            <h4>Liri App</h4>
-            <h5>JavaScript_Node.JS</h5>
-            <img src="images/liri.png" class="img-fluid" />
-            <div class="text-center">
-              <a
-                href="https://drive.google.com/file/d/1O3JeSXiNBa-3HM58UW337dafC-tmW3ea/view?usp=sharing"
-                class="card-link"
-                target="_blank"
-                >App Demo Link</a
-              >
-              <a
-                href="https://github.com/ramezray/liri-node-app"
-                class="card-link"
-                target="_blank"
-                >GitHub link</a
-              >
-            </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
+          <h4>Trivia Game</h4>
+          <h5>HTML_CSS_JS</h5>
+          <img src="images/JS_quiz.PNG" class="img-fluid" />
+          <div class="text-center">
+            <a href="https://ramezray.github.io/TriviaGame/" class="card-link" target="_blank">App Link</a>
+            <a href="https://github.com/ramezray/TriviaGame" class="card-link" target="_blank">GitHub link</a>
           </div>
+        </div>
 
-          <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
-            <h4>Trivia Game</h4>
-            <h5>HTML_CSS_JS</h5>
-            <img src="images/JS_quiz.PNG" class="img-fluid" />
-            <div class="text-center">
-              <a
-                href="https://ramezray.github.io/TriviaGame/"
-                class="card-link"
-                target="_blank"
-                >App Link</a
-              >
-              <a
-                href="https://github.com/ramezray/TriviaGame"
-                class="card-link"
-                target="_blank"
-                >GitHub link</a
-              >
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
-            <h4>Word Guess Game</h4>
-            <h5>HTML_CSS_JS</h5>
-            <img src="images/guess.jpg" class="img-fluid" />
-            <div class="text-center">
-              <a
-                href="https://ramezray.github.io/Word-Guess-Game/"
-                class="card-link"
-                target="_blank"
-                >App Link</a
-              >
-              <a
-                href="https://github.com/ramezray/Word-Guess-Game"
-                class="card-link"
-                target="_blank"
-                >GitHub link</a
-              >
-            </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 pb-5">
+          <h4>Word Guess Game</h4>
+          <h5>HTML_CSS_JS</h5>
+          <img src="images/guess.jpg" class="img-fluid" />
+          <div class="text-center">
+            <a href="https://ramezray.github.io/Word-Guess-Game/" class="card-link" target="_blank">App Link</a>
+            <a href="https://github.com/ramezray/Word-Guess-Game" class="card-link" target="_blank">GitHub link</a>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Contact form -->
-    <div id="contact" class="contact-form">
-      <div class="container">
-        <form action="https://formspree.io/ray_ramez@yahoo.com" method="POST">
-          <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-12">
-              <h1>Contact Me</h1>
-            </div>
-            <div class="col-lg-8 col-md-8 col-sm-12 right">
-              <div class="form-group">
-                <input
-                  type="text"
-                  class="form-control form-control-lg"
-                  placeholder="Your Name"
-                  name="name"
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  type="email"
-                  class="form-control form-control-lg"
-                  placeholder="YourEmail@email.com"
-                  name="_replyto"
-                />
-              </div>
-              <div class="form-group">
-                <textarea
-                  name="message"
-                  class="form-control form-control-lg"
-                ></textarea>
-              </div>
-              <input
-                type="submit"
-                class="btn btn-secondary btn-block"
-                value="Send"
-                name=""
-              />
-            </div>
+  <!-- Contact form -->
+  <div id="contact" class="contact-form">
+    <div class="container">
+      <form action="https://formspree.io/ray_ramez@yahoo.com" method="POST">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <h1>Contact Me</h1>
           </div>
-        </form>
-      </div>
+          <div class="col-lg-8 col-md-8 col-sm-12 right">
+            <div class="form-group">
+              <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="name" />
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com"
+                name="_replyto" />
+            </div>
+            <div class="form-group">
+              <textarea name="message" class="form-control form-control-lg"></textarea>
+            </div>
+            <input type="submit" class="btn btn-secondary btn-block" value="Send" name="" />
+          </div>
+        </div>
+      </form>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
